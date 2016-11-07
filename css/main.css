@@ -1,0 +1,60 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+    font-family: Dosis,sans-serif;
+  
+}
+
+
+
+nav li{
+    
+    display: block;
+}
+
+nav li a{
+    padding-left: 60px;
+    height: 70px;
+    width: 70px;
+    background:;
+    display:table;
+    
+    
+}
+
+nav li a span{
+    text-transform: uppercase;
+    display:table-cell;
+    vertical-align: middle;
+    background: #000;
+    opacity: 0;
+    transition: all 1s;
+    
+}
+
+nav li a:hover{
+    
+    padding-left: 125px;
+}
+
+nav li a:hover span{
+    
+    opacity: 1;
+}
+
+nav li:nth-child(1) a{background: #7cc2fd; color: #7cc2fd;}
+nav li:nth-child(2) a{background: #BDFFEA; color: #BDFFEA;}
+nav li:nth-child(3) a{background: #ffcb82; color: #ffcb82;}
+nav li:nth-child(4) a{background: #FFC8F2; color: #FFC8F2;}
